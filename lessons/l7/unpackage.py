@@ -1,17 +1,14 @@
-point = (10, 20)
+point = (10,20)
 x, y = point
-print(f"значениe х  {x}, значение y {y}")
-
+print(x)
+print(y)
+#* символ распаковвки поэлементно
 first, *rest = (10, 20, 30, 40)
-# *rest = (10, 20, 30, 40)
 print(first)
-print(rest)
-
-a, b = 1, 2
+a, b = 1,2
 a, b = b, a
 print(a, b)
 
-pairs =  [("name", "Екатерина"),("age", 20)]
+pairs = [("name", "Екатерина"),("age", 30)]
 for key, value in pairs:
-    print(f"Ключ {key}, значение {value}")
-
+    print(key, value)
